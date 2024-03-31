@@ -14,7 +14,6 @@ public class BookService {
     private final BookRepository bookRepository;
 
     public void createBook(Book book) {
-//        Book book = new Book(name, author, publisherHouse, counterPages);
         bookRepository.createBook(book);
     }
 
