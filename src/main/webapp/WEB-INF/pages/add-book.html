@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>добавление книги</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     <div class="container">
         <div class="addBook">
             <h1>Добавить книгу</h1><br>
-            <form action="" method="post">
+            <form action="add-book" method="post">
                 <input type="text" name="name" placeholder="название">
                 <input type="text" name="author" placeholder="автор">
-                <input type="text" name="publishingHouse" placeholder="издательство">
-                <input type="date" name="publishingDate" placeholder="дата">
-                <input type="number" name="pageCounter" placeholder="количество страниц">
+                <input type="text" name="publisherHouse" placeholder="издательство">
+                <input type="number" name="counterPages" placeholder="количество страниц">
                 <button type="submit">Добавить</button>
             </form>
         </div>    
